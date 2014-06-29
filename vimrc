@@ -1,3 +1,6 @@
+" pathogen -----------
+
+execute pathogen#infect() 
 
 syntax on  " Habilitar a sintaxe
 
