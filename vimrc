@@ -20,18 +20,18 @@ set smartcase                 " Se tiver alguma letra maiÃºscula, ativa o case s
 set smartindent               " Auto-indenta
 set expandtab                 " Identa com espaÃ§os
 
-set tabstop=2                 " Quantidade de espaÃ§os por identaç
-set shiftwidth=2              " Quantidade de espaÃ§os da auto-indentação
+set tabstop=2                 " Quantidade de espaÃ§os por identaï¿½
+set shiftwidth=2              " Quantidade de espaÃ§os da auto-indentaï¿½ï¿½o
 
 set guioptions-=T                    " Deixa a GUI sem a toolbar
-set autochdir                 " Vai pro diretório do arquivo aberto
+set autochdir                 " Vai pro diretï¿½rio do arquivo aberto
 
-" Corretor ortográfico
-set spelllang=pt              " Escolhe o dicionário
+" Corretor ortogrï¿½fico
+set spelllang=pt              " Escolhe o dicionï¿½rio
 
 " Inicia no modo INSERT
-set im
-imap <ESC> <C-L>
+  "set im
+""->imap <ESC> <C-L> 
 
 " Cria e escolhe as abas
 noremap <C-T> :tabnew<CR>
@@ -47,7 +47,7 @@ vnoremap > >gv
 noremap <TAB> >
 noremap <S-TAB> <
 
-" Auto-fecha parênteses, chaves etc.
+" Auto-fecha parï¿½nteses, chaves etc.
 "inoremap { {}<LEFT>
 "inoremap ( ()<LEFT>
 "inoremap [ []<LEFT>
@@ -67,7 +67,7 @@ noremap <C-D> dd
 vnoremap <C-D> <C-C>dd
 inoremap <C-D> <C-O>dd
 
-" Organiza identação de um bloco selecionado com CTRL+ALT+F
+" Organiza identaï¿½ï¿½o de um bloco selecionado com CTRL+ALT+F
 noremap <C-A-F> ==
 vnoremap <C-A-F> <C-Q>==
 inoremap <C-A-F> <C-O>==
@@ -87,7 +87,7 @@ noremap <C-O> :tabnew
 vnoremap <C-O> <C-Q>:tabnew 
 inoremap <C-O> <C-O>:tabnew 
 
-" Função que usa o omnicomplete apenas com o CTRL+SPACE
+" Funï¿½ï¿½o que usa o omnicomplete apenas com o CTRL+SPACE
 inoremap <C-SPACE> <C-X><C-O>
 filetype plugin on
 
@@ -149,7 +149,7 @@ cnoremap <C-F4> <C-C><C-W>c
 onoremap <C-F4> <C-C><C-W>c
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Opções de plugins (Retire essas linhas se não tiver estes plugins) "
+" OpÃ§Ãµes de plugins (Retire essas linhas se nÃ£o tiver estes plugins) "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme badwolf                                              " Escolhe o tema
@@ -160,7 +160,4 @@ noremap <F5>  :NERDTree<CR>
 noremap <F7>  :set spell<CR>z=
 inoremap <F5> <C-O>:NERDTree<CR>
 inoremap <F7> <C-O>:set spell<CR><C-O>z=
-
-"correção das setas no ambiente de terminal
-
 
