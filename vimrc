@@ -2,6 +2,8 @@
 
 execute pathogen#infect() 
 
+set nocompatible       
+set bs=indent,eol,start
 
 """""""""""""""""""""""""""""""""""
 " CONFIGURAÃ‡Ã•ES PADRONIZADAS GOGS "
@@ -150,7 +152,7 @@ onoremap <C-F4> <C-C><C-W>c
 " Opções de plugins (Retire essas linhas se não tiver estes plugins) "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme ir_black                                              " Escolhe o tema
+colorscheme badwolf                                              " Escolhe o tema
 au BufNewFile,BufRead *.txt source ~/.vim/syntax/txt.vim          " Carrega o arquivo de sintaxe para TXT
 
 " Atalhos para plugins
@@ -158,3 +160,7 @@ noremap <F5>  :NERDTree<CR>
 noremap <F7>  :set spell<CR>z=
 inoremap <F5> <C-O>:NERDTree<CR>
 inoremap <F7> <C-O>:set spell<CR><C-O>z=
+
+"correção das setas no ambiente de terminal
+
+
