@@ -4,22 +4,22 @@ execute pathogen#infect()
 
 
 """""""""""""""""""""""""""""""""""
-" CONFIGURAÇÕES PADRONIZADAS GOGS "
+" CONFIGURAÃ‡Ã•ES PADRONIZADAS GOGS "
 " fonte: http://henriquegogo.wordpress.com/2009/08/31/disseram-me-ide-entao-eu-vim/ "
 """""""""""""""""""""""""""""""""""
 
 set number                    " Numera as linhas
-set nobackup                  " Não salva arquivos de backup~
+set nobackup                  " NÃ£o salva arquivos de backup~
 set wildmode=longest,list     " Completa o comando com TAB igual o bash
 
 set ignorecase                " Ignora o case sensitive nas buscas
-set smartcase                 " Se tiver alguma letra maiúscula, ativa o case sensitive
+set smartcase                 " Se tiver alguma letra maiÃºscula, ativa o case sensitive
 
 set smartindent               " Auto-indenta
-set expandtab                 " Identa com espaços
+set expandtab                 " Identa com espaÃ§os
 
-set tabstop=2                 " Quantidade de espaços por identação
-set shiftwidth=2              " Quantidade de espaços da auto-indentação
+set tabstop=2                 " Quantidade de espaÃ§os por identaç
+set shiftwidth=2              " Quantidade de espaÃ§os da auto-indentação
 
 set guioptions-=T                    " Deixa a GUI sem a toolbar
 set autochdir                 " Vai pro diretório do arquivo aberto
