@@ -1,4 +1,5 @@
 " pathogen - automatizar
+
 execute pathogen#infect() 
 
 
@@ -98,7 +99,7 @@ set mousemodel=popup
 set keymodel=startsel,stopsel
 set selection=exclusive
 
-" Backspace no modo de vis„o apaga a seleÁ„o
+" Backspace no modo de vis√£o apaga a sele√ß√£o
 vnoremap <BS> d
 
 " CTRL-X e SHIFT-Del corta
